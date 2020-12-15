@@ -1,4 +1,5 @@
 language: cpp 
+dist: focal
 before_install:
   - sudo apt-get update -q
 #compiler: gcc g++
