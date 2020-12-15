@@ -1,0 +1,11 @@
+include_guard(GLOBAL)
+set(SKIPPED_PACKAGES
+  tinyxml2
+  freetype
+  glm
+  GLEW
+  SDL2
+  Lua
+  SDL2
+  SDL2-net
+)
