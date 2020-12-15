@@ -33,7 +33,7 @@ addons:
       - libsdl2-dev
       - libsdl2-net-dev
       - libtinyxml2-dev
-      - libfreetype-dev
+      - libfreetype6-dev
       - libglm
       - libglew-dev
       - liblua5.3-dev
