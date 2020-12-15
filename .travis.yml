@@ -18,8 +18,8 @@ after_failure:
   - ./send.sh failure $WEBHOOK_DISCORD
 addons:
   apt:
-    sources:
-      - ubuntu-toolchain-r-test
+    #sources:
+    #  - ubuntu-toolchain-r-test
     packages:
       - libxrandr-dev
       - libopenal-dev
@@ -30,9 +30,9 @@ addons:
       - libgl1-mesa-glx
       - libgl1-mesa-dev
       - git
-    sources: &sources
-      - llvm-toolchain-precise-3.8
-      - ubuntu-toolchain-r-test
+        #sources: &sources
+        #  - llvm-toolchain-precise-3.8
+        #  - ubuntu-toolchain-r-test
 script:
   - mkdir tools
   - cd tools
