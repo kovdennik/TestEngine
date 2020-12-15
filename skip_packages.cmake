@@ -1,7 +1,7 @@
 include_guard(GLOBAL)
 set(SKIPPED_PACKAGES
   tinyxml2
-  freetype
+  Freetype
   glm
   GLEW
   SDL2
