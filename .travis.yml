@@ -34,7 +34,7 @@ addons:
       - libsdl2-net-dev
       - libtinyxml2-dev
       - libfreetype6-dev
-      - libglm
+      - libglm-dev
       - libglew-dev
       - liblua5.3-dev
       - git
