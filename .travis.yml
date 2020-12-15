@@ -2,14 +2,12 @@ language: cpp
 dist: focal
 before_install:
   - sudo apt-get update -q
-#compiler: gcc g++
+compiler: g++
 sudo: true
 # install:
 #  - libxrandr
 #  - libwrandr
 os: linux 
-env: 
-  - COMPILER_NAME=gcc CXX=g++-7 CC=gcc-7
 after_success:
   - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
   - chmod +x send.sh
