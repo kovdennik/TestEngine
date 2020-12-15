@@ -272,7 +272,7 @@ function(add_sdl)
 
     else()
       add_package(SDL2)
-      target_link_libraries(${PROJECT_NAME} PRIVATE SDL2::SDL2_static)
+      target_link_libraries(${PROJECT_NAME} PRIVATE SDL2::SDL2-static)
     endif()
 	else()
     add_package(SDL2)
