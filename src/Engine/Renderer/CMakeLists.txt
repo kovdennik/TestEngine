@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(Renderer CXX)
 
 add_package(Stb)
-add_package(Freetype REQUIRED)
+add_package(Freetype)
 # ===============> bison
 find_package(BISON)
 find_package(FLEX)
