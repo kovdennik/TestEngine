@@ -29,6 +29,14 @@ addons:
       - libogg-dev
       - libgl1-mesa-glx
       - libgl1-mesa-dev
+      - liblua5.3-dev
+      - libsdl2-dev
+      - libsdl2-net-dev
+      - libtinyxml2-dev
+      - libfreetype-dev
+      - libglm
+      - libglew-dev
+      - liblua5.3-dev
       - git
         #sources: &sources
         #  - llvm-toolchain-precise-3.8
